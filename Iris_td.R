@@ -7,7 +7,7 @@ colnames(iris)
 corr = cor(iris[, 1:4])
 round(corr, 2)
 
-pairs(dtemp)
+pairs(iris[, 1:4])
 
 require("corrplot")
 library(corrplot)
